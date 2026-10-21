@@ -1,0 +1,18 @@
+[project]
+name = "verus-sandboxes"
+version = "0.1.0"
+description = "Small Modal Sandbox examples for verification workloads"
+requires-python = ">=3.11"
+dependencies = ["modal==1.6.2"]
+
+[dependency-groups]
+dev = ["pre-commit>=4,<5", "ruff>=0.9,<1"]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
