@@ -12,7 +12,7 @@ Every example checks the same small problem: prove that a function returns the m
 vector. The [contract](contract/) holds the fixed spec, an incomplete
 [candidate](contract/candidate.rs), and a [solution](contract/solution.rs).
 
-| Example | Shows | One run (nicolas-dev, 2026-10-21) |
+| Example | Shows | Results |
 | --- | --- | --- |
 | `verify.py` | One verifier with no network | 3.0 s Verus time |
 | `fanout.py` | 500 verifiers in parallel | 500/500 verified in 7.5 s |
